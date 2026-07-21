@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f8fc;
+}
+
+/* HERO */
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("../images/bg.jpg");
+    background-size:cover;
+    background-position:center;
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+    margin:20px 0;
+    line-height:35px;
+}
+
+.hero img{
+    border-radius:20px;
+}
+
+/* CARD */
+
+.card{
+    transition:.4s;
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    height:230px;
+    object-fit:cover;
+}
+
+.card-body{
+    text-align:center;
+}
+
+.card i{
+    margin-bottom:15px;
+}
+
+/* BUTTON */
+
+.btn-warning{
+    padding:12px 30px;
+    font-weight:bold;
+    border-radius:30px;
+}
+
+.btn-warning:hover{
+    transform:scale(1.05);
+}
+
+/* JUDUL */
+
+h2{
+    color:#0066cc;
+    font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top:80px;
+}
+
+/* GALERI */
+
+.gallery img{
+    width:100%;
+    border-radius:15px;
+    transition:.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+/* KONTAK */
+
+.contact-box{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.2);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.hero{
+
+text-align:center;
+
+padding:50px 0;
+
+}
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+line-height:30px;
+
+}
+
+}
